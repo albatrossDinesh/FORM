@@ -1,0 +1,131 @@
+*{
+ box-sizing: border-box;
+ margin: 0px;
+ padding: 5px; 
+}
+
+body{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    
+  }
+
+.container{
+    height: 800px;
+    bottom: 100%;
+    background-color: aliceblue;
+    border-radius: 20px;
+    display: inline-block;
+    width: 700px;
+    border: 5px solid black;
+    padding: 8px;
+    margin: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+
+}
+
+.sec{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    border-radius: 3%;
+    
+
+}
+
+h1{
+    align-items: center;
+    background-color: aqua;
+   display: inline-block;
+    justify-content: center;
+    font-size: 50px;
+   margin-bottom: 40px; 
+   margin-top: 20px;
+   width: 30%;
+   margin-left: 35%;
+}
+
+.container label{
+    margin-left: 18%;
+    display: block;
+   padding:3px;
+   justify-content: center;
+   align-items: center;
+   font-style: oblique;
+   font-size: 25px;
+   
+}
+
+
+ 
+.container input{
+    display: inline-block;
+    margin-right: 10%;
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-bottom: 2%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    width:250px;
+    padding: 3px;
+    border-radius: 2px;
+    
+    
+}
+
+ small.error{
+   
+    margin-left: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: red;
+    /* visibility: hidden; */
+
+}
+
+small.success{
+   
+    margin-left: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: blue;
+    /* visibility: hidden; */
+
+}
+
+button{
+    width: 15%;
+    height: 5%;
+    border-radius: 2px;
+    justify-content: center;
+    align-items: center;
+   place-items: center;
+    display:inline-block;
+    box-shadow:50px solid black;
+    margin-left: 18%;
+    margin-top: 5%;
+    
+
+}
+
+.container button.op{
+    background-color:aqua;
+    color: black;
+    font: bold;
+    font-size: 20px;
+}
+
+.container button.cl{
+    background-color:aqua;
+    color: black;
+    font-size: 20px;
+}
